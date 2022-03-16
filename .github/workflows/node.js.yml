@@ -72,5 +72,6 @@ jobs:
       steps:
         - name: Runing tests for ubuntu
           run: echo -----------------------------
+        - name: Tests Done 
           run: echo Done tests for ubuntu
 
