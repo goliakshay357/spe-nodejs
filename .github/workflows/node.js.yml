@@ -66,11 +66,11 @@ jobs:
     - run: npm ci
     - run: npm test
   
-    After-build-ubuntu:
-        needs: build-ubuntu
-        runs-on: ubuntu-latest
-        steps:
-          - name: Runing tests for ubuntu
-            run: echo -----------------------------
-            run: echo Done tests for ubuntu
+  After-build-ubuntu:
+      needs: build-ubuntu
+      runs-on: ubuntu-latest
+      steps:
+        - name: Runing tests for ubuntu
+          run: echo -----------------------------
+          run: echo Done tests for ubuntu
 
